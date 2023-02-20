@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+}
+#container {
+    width: 400px;
+    background-color: aliceblue;
+    padding: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 2px;
+
+}
+ul,li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.list {
+    margin: 15px;
+   
+}
+.list > li {
+    background-color: antiquewhite;
+    margin-bottom: 2px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.btn {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 0;
+    
+}
+.btn > button {
+    width: 60px;
+    padding: 2px;
+}
+img {
+    width: 35px;
+}
